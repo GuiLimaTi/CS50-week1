@@ -1,85 +1,41 @@
-# CS50 – Week 1  
-### C Programming Fundamentals
+# CS50x Week 1 – C Fundamentals
 
-This repository contains my personal solutions to **Week 1** of Harvard's **CS50 – Introduction to Computer Science**.
+Problem sets from Week 1 of Harvard's CS50x, introducing programming in C: variables, conditionals, loops and user input.
 
-The focus of this week was building foundational programming skills in **C**, with emphasis on:
+**Language:** C · **Course:** [CS50x](https://cs50.harvard.edu/x/) · **Status:** Completed (2026)
 
-- Variables and data types  
-- Conditionals  
-- Loops (for, while, do-while)  
-- Basic input/output  
-- Algorithmic thinking  
-- Structured problem-solving  
+## Overview
 
----
+Week 1 was my first contact with C. The focus was on writing small, correct programs: reading user input, validating it, and using loops and conditionals to produce the right output.
 
-## 📂 Projects Included
+## Projects
 
-### 1️⃣ Hello
-A simple introductory program that prompts the user for their name and prints a personalized greeting.
+| Project | File | Description | Key concepts |
+|---|---|---|---|
+| Hello | `hello.c` | Asks for the user's name and prints a personalised greeting | Input with `get_string`, `printf` formatting |
+| Mario (more) | `mario.c` | Prints a double half-pyramid of a height between 1 and 8 | Nested loops, input validation |
+| Cash | `cash.c` | Calculates the minimum number of coins needed to give change | Greedy algorithm, integer arithmetic, modulo |
 
-**Concepts practiced:**
-- User input with `get_string`
-- Basic output formatting with `printf`
-- Program structure in C
+## How to run
 
----
+Requires the [CS50 Library](https://cs50.readthedocs.io/libraries/cs50/c/) (pre-installed in CS50's Codespace).
 
-### 2️⃣ Mario (More)
-A program that builds a double half-pyramid of a specified height between 1 and 8.
+```bash
+make mario
+./mario
+```
 
-**Concepts practiced:**
-- Nested loops  
-- Input validation  
-- Conditional logic  
-- Pattern generation  
-- Control flow  
+## What I learned
 
-This project strengthened logical thinking and understanding of how loops interact.
+- Breaking a problem into small steps before writing code
+- Validating user input so a program can't be broken by bad data
+- Using loops and conditionals to control program flow
+- Thinking about efficiency with a simple greedy algorithm
+
+## Academic honesty
+
+These solutions were written by me as part of CS50x. If you're taking the course, please follow CS50's [academic honesty policy](https://cs50.harvard.edu/x/honesty/) and write your own code.
 
 ---
 
-### 3️⃣ Cash
-A program that calculates the minimum number of coins required to make change for a given amount of cents.
-
-**Concepts practiced:**
-- Greedy algorithms  
-- Integer arithmetic  
-- Division and modulo operations  
-- Step-by-step problem decomposition  
-
-This exercise introduced algorithmic efficiency and greedy strategy design.
-
----
-
-## 🧠 What I Learned
-
-Week 1 reinforced the importance of:
-
-- Writing clean and structured code  
-- Breaking problems into smaller logical steps  
-- Thinking algorithmically before coding  
-- Validating user input properly  
-
-It also marked the transition from conceptual understanding to practical implementation in C.
-
----
-
-## 🛠️ Technologies Used
-
-- C  
-- CS50 Library  
-- GCC Compiler  
-
----
-
-## 📌 Notes
-
-All code in this repository was written by me as part of my learning journey through CS50.  
-These solutions represent my personal implementation and understanding of the problem sets.
-
----
-
-**Author:** Guilherme Lima  
-CS50 Student | Aspiring Data & Software Professional
+**Guilherme Lima** · Aspiring IT Support Technician · [LinkedIn](https://www.linkedin.com/in/glimaalmeida) · [GitHub](https://github.com/GuiLimaTi)
